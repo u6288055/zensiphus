@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng">
     <style>
-        @media only screen and (max-width: 300px) {
-                .navi-button {
-                    display: none;
-                }
-            }
         .top-nav {
             /*background banner*/
             background-color: #1AB385;
@@ -21,6 +16,7 @@
             font-style: normal;
 
             color: white;
+
         }
 
         .LOGO-div{
@@ -71,8 +67,12 @@
             position: absolute;
             right: 10px;
             top: 20%;
+            cursor: pointer;
         }
 
+        .navi-button.hover {
+            
+        }
 
     </style>
 
@@ -81,8 +81,9 @@
         <title>Home</title>
         
     </head>
-/*""*/
+
     <body>
+        /*here are the top navigator*/
         <div class="top-nav" style="position: fixed;">
             <div class="content-nav">
                 <div style="
@@ -103,11 +104,18 @@
                         <a class="about" href="#about-us">About us</a>
                     </div>
                     <div class="log-div" style=" background-color: #b1ffe8;">
-                        <button class="login-button">Log In</button>
+                        <button onclick="document.location='login-page.html'" class="login-button">Log In</button>
                     </div>
                 </div>
             </div>
             
+        </div>
+        /*end of top navigator*/
+
+        <div>
+            <p>
+                Welcome to Zensiphus
+            </p>
         </div>
     </body>
 </html>
