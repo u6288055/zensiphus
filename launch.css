@@ -76,3 +76,9 @@ body {
 .text-main {
   padding-top: 100px;
 }
+
+#text-welcom-paragraph {
+  background-color: #D5FFD4;
+  left: 0px;
+  right: 0px;
+}
