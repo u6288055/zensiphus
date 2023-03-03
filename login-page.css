@@ -78,10 +78,14 @@ form .txt_field{
 }
 
 .pass {
-  margin-top: 5px;
+  text-decoration: none;
   margin: -5px, 0, 20px, 5px;
   color: #a6a6a6;
   cursor: pointer;
+}
+
+.pass-div {
+  margin-top: 5px;
 }
 
 .pass:hover {
