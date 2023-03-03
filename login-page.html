@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-  <style>
-    .log-but {
-      color: white;
-      background-color: black;
-      padding: 14px, 25px;
-    }
-  </style>
-
   <head>
     <title>login</title>
+    <link rel="stylesheet" href="login-page.css">
   </head>
   <body>
     <div>
-      <a href="launch.html">Zensiphus</a>
-      <a class="log-but" href="launch.html">login</a>
+      <a class="logo" href="launch.html">Zensiphus</a>
+    </div>
+    <div class="center">
+      <H1>LOGIN</H1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required> 
+          <span> </span>
+          <label>username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required> 
+          <span> </span>
+          <label>password</label>
+        </div>
+        <div class="pass">Forget password?</div>
+        <input type="submit" value="Log in">
+        <div class="signup_link">don't have an account?<a href="#">sign up</a> </div>
+      </form>
     </div>
   </body>
 </html>
