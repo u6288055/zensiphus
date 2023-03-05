@@ -52,7 +52,7 @@ form input{
 }
 
 
-input[type="button"]{
+input[type="submit"]{
   margin-left: 10px;
   width: 600px;
   margin-top: 20px;
