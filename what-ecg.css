@@ -1,6 +1,5 @@
 body {
   font-family: 'Asap', sans-serif;
-  font-weight: bold;
 }
 
 .top-nav {
@@ -36,32 +35,26 @@ body {
   color: #FFFFFF;
 }
 
-#home {
+.home {
   color: white;
   margin-right:  40px;
   text-decoration: none;
 }
-#instruc {
+.instruc {
   color: white;
   margin-right:  40px;
   text-decoration: none;
 }
-#what-ECG {
+.what-ECG {
   color: white;
   margin-right:  40px;
   text-decoration: none;
 }
-#about {
+.about {
   color: white;
   margin-right:  40px;
   text-decoration: none;
   
-}
-
-
-.top-nav-button:hover {
-  color: #888888;
-  text-decoration: underline;
 }
 
 .login-button {
@@ -78,12 +71,65 @@ body {
   cursor: pointer;
 }
 
-.text-main {
-  padding-top: 100px;
+.what-main-box {
+  margin-top: 150px;
 }
 
-#text-welcom-paragraph {
-  background-color: #D5FFD4;
-  left: 0px;
-  right: 0px;
+/*under here is the main body*/
+
+h1 {
+  font-size: 96px;
+}
+
+#what-is-ecg-box {
+  display: flex;
+}
+
+#whatisecg {
+  text-align: right;
+  height: 240px;
+  width: 400px;
+  border-right: 1px;
+}
+
+#whatisecg-para {
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 500px;
+  text-align: justify;
+}
+
+.what-info-box {
+  margin-top: 90px;
+  display: flex;
+}
+
+#whatinfo-para {
+  margin-top: 100px;
+  text-align: right;
+  height: 500px;
+  width: 500px;
+  border-right: 1px;
+}
+
+#whatinfo {
+  right: 10%;
+  margin-left: 40px;
+}
+
+.how-it-help-box {
+  display: flex;
+}
+
+#howhelp {
+  text-align: right;
+}
+
+#howhelp-para {
+  margin-left: 40px;
+  margin-top: 100px;
+  text-align: left;
+  height: 500px;
+  width: 500px;
+  border-right: 1px;
 }

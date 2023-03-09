@@ -36,32 +36,26 @@ body {
   color: #FFFFFF;
 }
 
-#home {
+.home {
   color: white;
   margin-right:  40px;
   text-decoration: none;
 }
-#instruc {
+.instruc {
   color: white;
   margin-right:  40px;
   text-decoration: none;
 }
-#what-ECG {
+.what-ECG {
   color: white;
   margin-right:  40px;
   text-decoration: none;
 }
-#about {
+.about {
   color: white;
   margin-right:  40px;
   text-decoration: none;
   
-}
-
-
-.top-nav-button:hover {
-  color: #888888;
-  text-decoration: underline;
 }
 
 .login-button {
@@ -78,12 +72,6 @@ body {
   cursor: pointer;
 }
 
-.text-main {
-  padding-top: 100px;
-}
-
-#text-welcom-paragraph {
-  background-color: #D5FFD4;
-  left: 0px;
-  right: 0px;
+.main-part {
+  margin-top: 150px;
 }
