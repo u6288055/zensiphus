@@ -96,6 +96,7 @@ body {
 }
 
 #text-welcom-paragraph {
+  font-weight: bold;
   height: 317px;
 }
 
@@ -110,11 +111,12 @@ body {
   display: inline-flex;
   text-align: center;
   color: #0F712A;
-  font-weight: 500px;
+  font-weight: bold;
 }
 
 #welcome-box {
   text-align: center;
+  font-weight: bold;
 }
 
 #feature-box {

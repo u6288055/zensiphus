@@ -1,6 +1,5 @@
 body {
   font-family: 'Asap', sans-serif;
-  font-weight: bold;
 }
 
 .top-nav {
@@ -74,4 +73,27 @@ body {
 
 .main-part {
   margin-top: 150px;
+}
+
+img {
+  width: 400px;
+}
+
+.main-part {
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+p{
+  font-size: large;
+}
+
+.step {
+  font-size: 30px;
+  margin-top: 70px;
 }
