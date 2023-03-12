@@ -41,6 +41,32 @@ body {
   color: #FFFFFF;
 }
 
+
+.top-nav-button{
+  color: white;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+
+.top-nav-button:hover {
+  color: #d4d4d4;
+}
+
+.login-button {
+  color: #FFFFFF;
+  height: 41px;
+  width: 139px;
+  align-items: center;
+
+  background: #000000;
+  border-radius: 10px;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  cursor: pointer;
+}
+
 #home {
   margin-right:  40px;
   text-decoration: none;

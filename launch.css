@@ -41,32 +41,16 @@ body {
   color: #FFFFFF;
 }
 
-#home {
-  margin-right:  40px;
-  text-decoration: none;
-}
-#instruc {
-  margin-right:  40px;
-  text-decoration: none;
-}
-#what-ECG {
-  margin-right:  40px;
-  text-decoration: none;
-}
-#about {
-  margin-right:  40px;
-  text-decoration: none;
-  
-}
 
 .top-nav-button{
   color: white;
+  margin-right: 40px;
+  text-decoration: none;
 }
 
 
 .top-nav-button:hover {
   color: #d4d4d4;
-  text-decoration: underline;
 }
 
 .login-button {
