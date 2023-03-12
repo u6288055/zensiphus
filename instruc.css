@@ -1,11 +1,13 @@
 body {
   font-family: 'Asap', sans-serif;
+  font-weight: bold;
 }
 
 .top-nav {
   /*background banner*/
   background-color: #1AB385;
   overflow: hidden;
+  text-overflow: ellipsis;
   position: fixed;
   height: 96px;
   left: 0px;
@@ -16,8 +18,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 
-  color: white;
+}
 
+@media (max-width:900px) {
+  .top-nav-button {
+    display: none;
+  }
 }
 
 .LOGO-div{
@@ -35,26 +41,32 @@ body {
   color: #FFFFFF;
 }
 
-.home {
-  color: white;
+#home {
   margin-right:  40px;
   text-decoration: none;
 }
-.instruc {
-  color: white;
+#instruc {
   margin-right:  40px;
   text-decoration: none;
 }
-.what-ECG {
-  color: white;
+#what-ECG {
   margin-right:  40px;
   text-decoration: none;
 }
-.about {
-  color: white;
+#about {
   margin-right:  40px;
   text-decoration: none;
   
+}
+
+.top-nav-button{
+  color: white;
+}
+
+
+.top-nav-button:hover {
+  color: #d4d4d4;
+  text-decoration: underline;
 }
 
 .login-button {
@@ -70,6 +82,7 @@ body {
   top: 20%;
   cursor: pointer;
 }
+
 
 .main-part {
   margin-top: 150px;
