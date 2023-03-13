@@ -1,0 +1,68 @@
+body {
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+}
+
+.top-nav {
+  /*background banner*/
+  background-color: #1AB385;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: fixed;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+
+  /*navi inside*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+
+}
+
+@media (max-width:900px) {
+  .top-nav-button {
+    display: none;
+  }
+}
+
+.LOGO-div{
+  display: inline-block;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 73px;
+  text-decoration: none;
+  margin-left: 20px;
+
+  color: #FFFFFF;
+}
+
+
+.top-nav-button{
+  color: white;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+
+.top-nav-button:hover {
+  color: #d4d4d4;
+}
+
+.login-button {
+  color: #FFFFFF;
+  height: 41px;
+  width: 139px;
+  align-items: center;
+
+  background: #000000;
+  border-radius: 10px;
+  position: absolute;
+  right: 10px;
+  top: 20%;
+  cursor: pointer;
+}
