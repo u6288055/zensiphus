@@ -66,3 +66,34 @@ body {
   top: 20%;
   cursor: pointer;
 }
+
+#text-box{
+  margin-top: 150px;
+}
+
+h1{
+  font-size: 64px;
+}
+
+h4{
+  margin-top: -40px;
+}
+
+.body-box {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#pickfile {
+  text-decoration: none;
+  color: white;
+  background-color: #1AB385;
+  padding: 30px 70px;
+  font-weight: 600;
+  font-size: 28px;
+  border-radius: 20px;
+}
+
+#pickfile:hover {
+  background-color: #000000;
+}
