@@ -67,30 +67,48 @@ body {
   cursor: pointer;
 }
 
-
-.main-part {
-  padding: 150px;
+.background-image {
+  background-image: url(resource/forest.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  filter: opacity(80%);
+  padding: 100px;
 }
 
-img {
-  width: 400px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.main-part {
-  align-items: center;
+.body-part {
+  padding-top: 80px;
+  /* padding-left: 100px; */
+  font-size:xx-large
+}
+
+#letsdo {
+  margin-bottom: 50px;
+}
+
+#start-now {
+  width: 300px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: #008EA1;
+  padding: 30px;
   text-align: center;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 60px;
-}
-
-p{
-  font-size: large;
-}
-
-.step {
-  font-size: 30px;
-  margin-top: 70px;
+#week-box {
+  padding: 20px 0;
+  text-align: center;
+  height: 250px;
+  width: 450px;
+  background: rgba(255, 255, 255, 0.733);
+  margin-top: 150px;
+  border-radius: 30px;
 }

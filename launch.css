@@ -7,6 +7,7 @@ body {
   /*background banner*/
   background-color: #1AB385;
   overflow: hidden;
+  text-overflow: ellipsis;
   position: fixed;
   height: 96px;
   left: 0px;
@@ -17,8 +18,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
 
-  color: white;
+}
 
+@media (max-width:900px) {
+  .top-nav-button {
+    display: none;
+  }
 }
 
 .LOGO-div{
@@ -36,32 +41,16 @@ body {
   color: #FFFFFF;
 }
 
-#home {
+
+.top-nav-button{
   color: white;
-  margin-right:  40px;
+  margin-right: 40px;
   text-decoration: none;
-}
-#instruc {
-  color: white;
-  margin-right:  40px;
-  text-decoration: none;
-}
-#what-ECG {
-  color: white;
-  margin-right:  40px;
-  text-decoration: none;
-}
-#about {
-  color: white;
-  margin-right:  40px;
-  text-decoration: none;
-  
 }
 
 
 .top-nav-button:hover {
-  color: #888888;
-  text-decoration: underline;
+  color: #d4d4d4;
 }
 
 .login-button {
@@ -83,7 +72,88 @@ body {
 }
 
 #text-welcom-paragraph {
+  margin-top: 50px;
   background-color: #D5FFD4;
   left: 0px;
   right: 0px;
+  text-align: justify;
+}
+
+.h1-title {
+  font-size: 76px;
+  font-weight: 2000px;
+}
+
+#text-welcom-paragraph {
+  font-weight: bold;
+  height: 317px;
+}
+
+.p-body {
+  font-size: 30px;
+}
+
+#p-welcome {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  display: inline-flex;
+  text-align: center;
+  color: #0F712A;
+  font-weight: bold;
+}
+
+#welcome-box {
+  text-align: center;
+  font-weight: bold;
+  overflow: auto;
+}
+
+#feature-box {
+  margin-top: 100px;
+  display: flex;
+  overflow:auto;
+}
+
+
+#p-feature {
+  margin-top: -50px;
+  margin-left: 100px;
+}
+
+#app-box {
+  align-items: center;
+  background-color:  #D5FFD5;
+  display: inline-flex;
+  margin-top: 200px;
+  margin-left: 30%;
+  right: 0;
+  height: 300px;
+  color: #0F712A;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+
+#choose-box {
+  margin-top: 200px;
+  margin-left: 20%;
+  display: inline-flex;
+  margin-right: 20%;
+  margin-bottom: 200px;
+}
+
+#contact-us-box {
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-weight: bolder;
+  background-color: #1AB385;
+  margin: 0;
+  width: 100%;
+  clear: both;
+  display: block;
+  left: 0;
+  right: 0;
+  overflow: auto;
 }
