@@ -66,3 +66,10 @@ body {
   top: 20%;
   cursor: pointer;
 }
+
+#body-box {
+  margin: 150px 20px 0px 20px;
+  height: 350px;
+  right: 0;
+  background-color: #9c9c9c;
+}
