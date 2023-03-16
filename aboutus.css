@@ -6,8 +6,6 @@ body {
 .top-nav {
   /*background banner*/
   background-color: #1AB385;
-  overflow: hidden;
-  text-overflow: ellipsis;
   position: fixed;
   height: 96px;
   left: 0px;
@@ -20,14 +18,71 @@ body {
 
 }
 
-@media (max-width:900px) {
+@media (max-width:1000px) {
   .top-nav-button {
+    display: none;
+  }
+  .login-button {
+    width: 50px;
+  }
+}
+
+@media(min-width:1000px)  {
+  .dropdown{
     display: none;
   }
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-weight: bold;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #38524a;
+}
+
 .LOGO-div{
-  display: inline-block;
+  display: flex;         
+  margin-top: 10px;              
 }
 
 .logo {
@@ -56,56 +111,14 @@ body {
 .login-button {
   color: #FFFFFF;
   height: 41px;
-  width: 139px;
+  width: 110px;
   align-items: center;
 
   background: #000000;
-  border-radius: 10px;
+  border-radius: 20px;
   position: absolute;
   right: 10px;
-  top: 20%;
-  cursor: pointer;
-}
-
-#home {
-  margin-right:  40px;
-  text-decoration: none;
-}
-#instruc {
-  margin-right:  40px;
-  text-decoration: none;
-}
-#what-ECG {
-  margin-right:  40px;
-  text-decoration: none;
-}
-#about {
-  margin-right:  40px;
-  text-decoration: none;
-  
-}
-
-.top-nav-button{
-  color: white;
-}
-
-
-.top-nav-button:hover {
-  color: #d4d4d4;
-  text-decoration: underline;
-}
-
-.login-button {
-  color: #FFFFFF;
-  height: 41px;
-  width: 139px;
-  align-items: center;
-
-  background: #000000;
-  border-radius: 10px;
-  position: absolute;
-  right: 10px;
-  top: 20%;
+  top: 30px;
   cursor: pointer;
 }
 

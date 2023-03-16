@@ -10,25 +10,33 @@
   <!--/*here are the top navigator*/-->
   <div class="top-nav">
     <div class="content-nav">
-        <div style="
-            /* background-color: rgb(151, 151, 255);  */
-            display: flex; flex-direction: row;
-            margin-top: 10px;
-            position: relative;" 
-            class="LOGO-div">
+        <div class="LOGO-div">
             <a class="logo" href="home-page.html">Zensiphus</a>
             <div style="
             /* background-color: yellow; */
             margin-left: 50px;
             margin-top: 40px;"; 
             class="navi-button">
-            <a class="top-nav-button" id="home" href="home-page.html">Home</a>
-            <a class="top-nav-button" id="instruc" href="instruc-after.html">Intruction</a>
-            <a class="top-nav-button" id="what-ECG" href="what-ecg-after.html">What is ECG?</a>
-            <a class="top-nav-button" id="about" href="about-us-after.html">About us</a>
-            <a class="top-nav-button" id="dash" href="dashboard.html">Dashboard</a>
-            <a class="top-nav-button" id="rec" href="record.html">ECG record</a>
+              <a class="top-nav-button" id="home" href="home-page.html">Home</a>
+              <a class="top-nav-button" id="instruc" href="instruc-after.html">Intruction</a>
+              <a class="top-nav-button" id="what-ECG" href="what-ecg-after.html">What is ECG?</a>
+              <a class="top-nav-button" id="about" href="about-us-after.html">About us</a>
+              <a class="top-nav-button" id="dash" href="dashboard.html">Dashboard</a>
+              <a class="top-nav-button" id="rec" href="record.html">ECG record</a>
             </div>
+            <div class="dropdown">
+                <button class="dropbtn">More
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="home-page.html">Home</a>
+                  <a href="instruc-after.html">Intruction</a>
+                  <a href="what-ecg-after.html">What is ECG?</a>
+                  <a href="about-us-after.html">About us</a>
+                  <a href="dashboard.html">Dashboard</a>
+                  <a href="record.html">ECG record</a>
+                </div>
+              </div>
             <div class="log-div">
                 <button onclick="document.location='login-page.html'" class="login-button">Log Out</button>
             </div>
